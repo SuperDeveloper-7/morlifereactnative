@@ -1,0 +1,1 @@
+WE keep the styles inside ./styles folde, where the folder stucture is the same. We keep the constants in the top folder of styles.

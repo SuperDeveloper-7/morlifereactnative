@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Mor",
+    "slug": "Mor",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "0.2.3",
+    "orientation": "portrait",
+    "icon": "./assets/images/mor-app-icon.png",
+    "scheme": "myapp",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "usesAppleSignIn": true,
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mor.do",
+      "buildNumber": "0.2.3",
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "com.googleusercontent.apps.805115080367-eer7ep1118esmci65loqcqq5a041fo8u"
+        }
+      }
+    },
+    "packagerOpts": {
+      "config": "metro.config.js",
+      "sourceExts": ["js", "jsx", "svg"]
+    }
+  }
+}

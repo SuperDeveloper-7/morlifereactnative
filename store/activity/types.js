@@ -1,0 +1,1 @@
+export const SET_ACTIVITY_FEED = 'SET_ACTIVITY_FEED';
